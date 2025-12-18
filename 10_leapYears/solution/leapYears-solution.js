@@ -12,5 +12,7 @@ const leapYears = function (year) {
     return false;
   }
 };
+console.log(isYearDivisibleByFour);
+leapYears(2000);
 
 module.exports = leapYears;
